@@ -8,8 +8,8 @@ public class Main {
         while (total < 2459000) {
             total += salary;
             i++;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
         }
-        System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
 
         //Задача 2
         int number = 1;
@@ -30,9 +30,8 @@ public class Main {
         int years = 1;
         for (; years < 10; years++) {
             peoples = (int) (peoples * kb * kd);
-
+            System.out.println("Год " + years + ", численность населения составляет " + peoples);
         }
-        System.out.println("Год, " + years + " численность населения составляет " + peoples);
 
         //Задача 4
         salary = 15000;
